@@ -1,0 +1,141 @@
+h1 {
+    font-family: "Spicy Rice", serif;
+    font-size: 120px;
+    font-style: normal;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Spicy Rice", serif;
+    font-size: 25px;
+    color: rgb(85, 31, 44);
+}
+
+h3 {
+    font-family: "Spicy Rice", serif;
+    font-size: 20px;
+    color: rgb(85, 31, 44);
+}
+
+h4 {
+    font-family: "Spicy Rice", serif;
+    font-size: 35px;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+h5 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(85, 31, 44);
+}
+
+h6 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+    color: rgb(85, 31, 44);
+}
+
+.information-contrast {
+    font-family: 'Inria Sans';
+    font-size: 15px;
+    color: rgb(85, 31, 44);
+}
+
+.for-display {
+    font-family: "Spicy Rice", serif;
+    font-size: 40px;
+    color: rgb(85, 31, 44);
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: 1/2;
+}
+
+.alphabet {
+    font-family: "Spicy Rice", serif;
+    font-size: 60px;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+.numbers {
+    font-family: "Spicy Rice", serif;
+    font-size: 55px;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+.symbols {
+    font-family: "Spicy Rice", serif;
+    font-size: 50px;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(85, 31, 44);
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+}
+
+.body-copy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.first {
+grid-column: 1/2;
+grid-row: 1/2;
+text-align: right;
+}
+
+.second {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+}
+
+.third {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    text-align: center;
+    margin: auto;
+}
+
+.fourth {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: right;
+}
+
+.fifth {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: left;
+}
+
+.sixth {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    text-align: center;
+}
